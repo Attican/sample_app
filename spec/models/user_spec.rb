@@ -31,6 +31,8 @@ describe User do
 	it { should respond_to(:authenticate) }
 	it { should respond_to(:microposts) }
 	it { should respond_to(:feed) }
+	it { should respond_to(:relationships) }
+	
 
 	it { should_not be_admin }
 	it { should be_valid }
